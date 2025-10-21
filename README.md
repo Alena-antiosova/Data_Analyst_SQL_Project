@@ -1,5 +1,3 @@
-# Data_Analyst_SQL_Project
-Car Shop database and analytics
 # Data Analyst SQL Project: Car Shop Database
 
 ## Описание проекта
