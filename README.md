@@ -1,2 +1,39 @@
 # Data_Analyst_SQL_Project
 Car Shop database and analytics
+# Data Analyst SQL Project: Car Shop Database
+
+## Описание проекта
+Проект демонстрирует навыки работы с SQL:
+- Создание базы данных и нормализация до 3NF
+- Загрузка и обработка данных из CSV
+- Аналитические запросы с использованием агрегатных функций, JOIN, STRING_AGG, EXTRACT
+- Работа с типами данных NUMERIC, REAL, VARCHAR, CHECK и PRIMARY/FOREIGN KEY
+
+## Структура проекта
+- `01_create_raw_table.sql` – создание таблицы с сырыми данными
+- `02_create_normalized_schema.sql` – создание нормализованных таблиц и схемы `car_shop`
+- `03_load_data.sql` – загрузка данных в таблицы
+- `04_queries.sql` – аналитические запросы (6 заданий)
+
+## Используемые технологии
+- PostgreSQL
+- SQL (DDL и DML)
+- Основы нормализации данных
+
+## Задания
+1. Процент машин без значения `gasoline_consumption`
+2. Средняя цена по брендам и годам
+3. Средняя цена по месяцам 2022
+4. Список машин у каждого человека (STRING_AGG)
+5. Минимальная и максимальная цена по странам брендов
+6. Количество пользователей из США (+1 телефон)
+
+## Запуск проекта
+1. Создать базу данных `sprint_1` в PostgreSQL.
+2. Выполнить SQL-скрипты по порядку:
+   - `01_create_raw_table.sql`
+   - `02_create_normalized_schema.sql`
+   - `03_load_data.sql`
+   - `04_queries.sql`
+3. Просмотреть результаты запросов в pgAdmin/psql.
+
